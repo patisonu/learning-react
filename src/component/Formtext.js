@@ -16,6 +16,7 @@ export default function Formtext() {
         <div className="mb-3">
             <textarea className="form-control" value={areaval} onChange={handleOnChange} id="mybox" rows="8"></textarea>
         </div><button className="btn btn-primary" onClick={handleUpClick}>Convert to uppercase</button>
+        <button className="btn btn-primary" onClick={handleUpClick}>Convert to lowercase</button>
         <div className="my-2">
             <p>Words {areaval.split(" ").length}</p>
             <p>Characters {areaval.length}</p>
